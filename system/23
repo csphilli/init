@@ -1,0 +1,6 @@
+Via command line:
+ssh <username>@<hostname>
+Then enter password when prompted to.
+
+Via graphical:
+Enter your username and password when asked.

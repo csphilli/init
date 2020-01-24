@@ -1,0 +1,18 @@
+#1 Navigate to /etc/hosts
+#2 Alter the cdn.intra.42.fr address from 10.51.1.10 to 46.19.122.85
+
+#From this:
+
+10.51.1.10       cdn.42.fr
+10.51.1.10    cdn.intra.42.fr
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost
+
+#To this:
+
+10.51.1.10       cdn.42.fr
+46.19.122.85    cdn.intra.42.fr
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost

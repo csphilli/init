@@ -1,0 +1,4 @@
+ssh
+# usage would be:
+# ssh <username>@<hostname>
+# followed by password entry

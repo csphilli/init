@@ -1,0 +1,4 @@
+#!/bin/bash
+USER=test1
+pgrep -u $USER | while read PID; do kill $PID; done
+userdel $USER

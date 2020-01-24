@@ -1,0 +1,4 @@
+first run "traceroute slash16.org"
+Line 1 is the local IP.
+Line 2 is the NAT or Network Address Translation. This translates the private/local IP address to a public IP address and vice versa on the return.
+The address of the NAT is (10.60.1.1)
