@@ -1,4 +1,4 @@
-cat /etc/passwd | awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}'
+cat /etc/passwd | awk -F: '$3>=1000 && $1 != "nobody" {print $1}'
 #cat /etc/passwd lists all the active users
 # a 'real' user has an ID >= 1000
 # setting the delimiter value to : and searching the 3rd field for values >= 1000
